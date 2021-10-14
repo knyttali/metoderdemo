@@ -2,7 +2,6 @@ package se.metoder;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.*;
 
 public class LabF5 {
     public void validPassword(String passWord) {
@@ -18,13 +17,12 @@ public class LabF5 {
                 antalSiffror++;
             } else {
                 antalBokstaver++;
-            }
+            } 
         }
 
         if (b && passWord.length() < 8 || antalBokstaver < 1 || antalSiffror < 2) { // kollar så det endast är siffror och bokstäver + så det är minst 8 tecken
             System.out.println("ogiltigt lösenord");
         }
-
     }
 
     public void run() {
@@ -32,7 +30,6 @@ public class LabF5 {
         System.out.println("Input a password: ");
         String passWord = System.console().readLine();
         validPassword(passWord);
-
     }
 
     public void meny() {
