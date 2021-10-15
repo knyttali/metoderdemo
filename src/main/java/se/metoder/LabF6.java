@@ -1,8 +1,5 @@
 package se.metoder;
 
-import java.lang.reflect.Array;
-
-
 public class LabF6 {
     public void run(){
         String[] allaOrd = {"Volvo", "BMW", "Ford", "Mazda"};

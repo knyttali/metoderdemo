@@ -26,8 +26,10 @@ public final class App {
         LabF5 lab5 = new LabF5();
         lab5.run();
         LabF6 lab6 = new LabF6();
-        lab6.run();*/
+        lab6.run();
         LabF7 lab7 = new LabF7();
-        lab7.run();
+        lab7.run();*/
+        LabF8 lab8 = new LabF8();
+        lab8.run();
     }
 }
